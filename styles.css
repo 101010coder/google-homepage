@@ -1,0 +1,58 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+#container {
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+#topbar {
+    margin: 25px 40px 0 0;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    float: right;
+    display: block;
+    padding: 0 0 0 20px;
+}
+#topbar ul li {
+    font: 13px Arial, sans-serif;
+}
+#topbar ul li:first-child {
+    margin-top: -10px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:link a:visited {
+    color: #0000;
+}
+#bottom a:link, #bottom a:visited {
+    color: #666;
+}
+#logo {
+    margin: auto;
+    padding: 30px 0;
+    width: 20em;
+    display: block;
+    clear: both;
+}
+#searchbar {
+    margin: auto;
+}
+#searchbar input {
+    width: 30em;
+    margin: auto;
+    padding: 4px 8px;
+    border: 1px solid #d5d5d5;
+    display: inline-block;
+    font-size: 1.4em;
+    vertical-align: middle;
+
+}
+
