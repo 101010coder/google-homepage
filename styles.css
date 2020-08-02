@@ -15,7 +15,7 @@ ul {
 li {
     float: right;
     display: block;
-    padding: 0 0 0 20px;
+    padding: 0 0 0 18px;
 }
 #topbar ul li {
     font: 13px Arial, sans-serif;
@@ -48,11 +48,48 @@ a:link a:visited {
 #searchbar input {
     width: 30em;
     margin: auto;
-    padding: 4px 8px;
+    padding: 4px 8px 4px 8px;
     border: 1px solid #d5d5d5;
     display: inline-block;
     font-size: 1.4em;
     vertical-align: middle;
-
 }
-
+#search-options {
+    margin-top: 10px;
+}
+.button {
+    background-color: #eeeeee;
+    font: bold 13.5px/30px Arial, sans-serif!important;
+    color: #7a7a7a;
+    padding: 3px 10px 3px 10px;
+    margin: 20px 2px 10px 2px;
+    display: inline-block;
+    border-radius: 2px;
+}
+.button:hover {
+    border: 1px solid #cccccc;
+    color: #000000;
+}
+#searchbar input:hover {
+    border: 1px solid #7e7e7e;
+}
+#bottombar {
+    background-color: #f2f2f2;
+    border-top: 2px solid #e4e4e4;
+    height: 40px;
+    clear: both;
+    position: fixed;
+    margin-top: 215px;
+    font: 12.5px/40px Arial;
+    bottom: 0;
+    width: 100%;
+}
+#bottombar ul {
+    margin-left: 27px margin-top: 5px;
+}
+#bottomleft {
+    float: left;
+}
+#bottomright {
+    margin-right: 27px;
+}
