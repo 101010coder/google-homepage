@@ -1,4 +1,4 @@
-#google-homepage
+# google-homepage
 
 This project is a clone version of the google search page for my TOP assignment.
 HTML & CSS have been used to create this webpage.
